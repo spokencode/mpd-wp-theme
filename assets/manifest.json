@@ -1,7 +1,12 @@
 {
-  "dependencies": {
-    "main.js": {
-      "files": [
+   "dependencies": {
+      "custom.js": {
+         "files": [
+            "scripts/custom.js"
+         ]
+      },
+      "main.js": {
+         "files": [
         "scripts/main.js"
       ],
       "main": true
@@ -19,9 +24,12 @@
     },
     "jquery.js": {
       "bower": ["jquery"]
+    },
+      "app.js": {
+      "vendor": ["assets/scripts/app.js"]
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://preview.pgsrv9o5mictbj4ikid4vvh1zths38frxmuznpmta3ot7qfr.box.codeanywhere.com/williamson/"
   }
 }

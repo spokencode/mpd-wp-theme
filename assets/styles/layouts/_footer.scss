@@ -1,0 +1,17 @@
+footer {
+  font-size: 16px;
+  background-color: #d6d7d9;
+  padding: 20px;
+  color: #666666;
+  
+  a,
+  a:hover,
+  a:visited{
+    color: #666666;
+  }
+  
+  section,
+  textwidget{
+    display: inline-block;
+  }
+}
