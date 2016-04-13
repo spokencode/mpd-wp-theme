@@ -22,11 +22,11 @@
         "scripts/customizer.js"
       ]
     },
+      "circletype.js": {
+      "bower": ["circletype.js"]
+    },
     "jquery.js": {
       "bower": ["jquery"]
-    },
-      "app.js": {
-      "vendor": ["assets/scripts/app.js"]
     }
   },
   "config": {
