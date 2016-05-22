@@ -8,7 +8,14 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass": "3.3.6",
-    "font-awesome": "^4.5.0"
+    "jquery": "^2.2.3",
+    "font-awesome": "^4.5.0",
+    "letteringjs": "^0.7.0",
+    "hover": "^2.0.2",
+    "circletype.js": "*",
+    "FitText.js": "^1.2.0",
+    "jquery-ui": "^1.11.4",
+    "breakpoints.js": "^0.4.2"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -35,8 +42,24 @@
     },
     "font-awesome": {
       "main": [
-        "./css/font-awesome.css",
+        "./scss/font-awesome.scss",
         "./fonts/*"
+      ]
+    },
+    "circletype.js": {
+      "main": [
+        "./js/circletype.js",
+        "./js/circletype.min.js"
+      ]
+    },
+    "breakpoints.js": {
+      "main": [
+        "./dist/breakpoints.js"
+      ]
+    },
+    "custom.js": {
+      "vendor": [
+        "assets/scripts/custom.js"
       ]
     }
   }

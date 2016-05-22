@@ -94,6 +94,9 @@ function display_sidebar() {
 /**
  * Theme assets
  */
+
+wp_deregister_script( 'jquery' );
+
 function assets() {
   wp_enqueue_style('sage/css', Assets\asset_path('styles/main.css'), false, null);
 
@@ -102,5 +105,6 @@ function assets() {
   }
 
   wp_enqueue_script('sage/js', Assets\asset_path('scripts/main.js'), ['jquery'], null, true);
+   wp_enqueue_script('custom', Assets\asset_path('scripts/custom.js'), [], null, true);
 }
 add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\assets', 100);

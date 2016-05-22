@@ -1,10 +1,5 @@
 {
    "dependencies": {
-      "custom.js": {
-         "files": [
-            "scripts/custom.js"
-         ]
-      },
       "main.js": {
          "files": [
         "scripts/main.js"
@@ -22,11 +17,8 @@
         "scripts/customizer.js"
       ]
     },
-      "circletype.js": {
-      "bower": ["circletype.js"]
-    },
-    "jquery.js": {
-      "bower": ["jquery"]
+    "custom.js": {
+      "vendor": ["assets/scripts/custom.js"]
     }
   },
   "config": {

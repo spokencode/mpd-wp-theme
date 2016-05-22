@@ -1,5 +1,5 @@
 <header class="banner">
-  <div class="container">
+   <div >
 
     <nav class="navbar navbar-default" role="navigation">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,8 +25,8 @@
 
 
 
-                <button type="button"><i class="fa fa-mobile"></i> <a href="tel:1-404-892-7555">Call (404) 892-7555</a></button>
-                <button type="button"><i class="fa fa-calendar"></i> <a href="mailto:info@morningsidepediatricdentistry.com">Schedule Appointment</a></button>
+                <div class="button"><i class="fa fa-mobile"></i> <a href="tel:1-404-418-6684">Call (404) 418-6684</a></div>
+                <div class="button"><i class="fa fa-calendar"></i> <a href="mailto:info@morningsidepediatricdentistry.com">Schedule Appointment</a></div>
 
               </div>
 
@@ -51,20 +51,6 @@
         </div>
       </div>
     </nav>
-
-
-   
-      
-   
-
-
-  </div>
-  <img id="kids" class="hidden-xs hidden-sm hidden-md" src="<?= get_template_directory_uri(); ?>/dist/images/kids.png" />
-</header>
-
-
-<div id="ribbonContainer">
-  <div id="theRibbon">
-    <img src="<?= get_template_directory_uri(); ?>/dist/images/ribbon-full.png" />
-  </div>
 </div>
+  <img id="kids" class="hidden-xs hidden-sm" src="<?= get_template_directory_uri(); ?>/dist/images/kids.png" />
+</header>

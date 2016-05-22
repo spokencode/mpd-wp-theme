@@ -56,6 +56,3 @@ function asset_path($filename) {
     return $dist_path . $directory . $file;
   }
 }
-
- wp_enqueue_script('app_js', asset_path('scripts/app.js'), [], null, true);
-wp_enqueue_script('custom_js', asset_path('scripts/custom.js'), ['jquery'], null, true);
